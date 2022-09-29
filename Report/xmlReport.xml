@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.225725">
+    <testcase classname="User login The Page" name="Homepage" time="0.225725">
+        <failure message="java.io.FileNotFoundException: C:\Users\Admin\eclipse-workspace1\FaceBook\src\main\java\property\FaceBook.properties (The system cannot find the path specified)&#13;&#10;&#9;at java.base/java.io.FileInputStream.open0(Native Method)&#13;&#10;&#9;at java.base/java.io.FileInputStream.open(FileInputStream.java:216)&#13;&#10;&#9;at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)&#13;&#10;&#9;at property.ConfigurationReader.&lt;init&gt;(ConfigurationReader.java:12)&#13;&#10;&#9;at property.ConfigurationHelper.getInstance(ConfigurationHelper.java:7)&#13;&#10;&#9;at com.stepdefinition.stepdefinition.user_Launch_The_Url_Of_Application(stepdefinition.java:33)&#13;&#10;&#9;at ✽.user Launch The Url Of Application(src/test/java/com/feature/facebook.feature:5)&#13;&#10;"><![CDATA[Given user Launch The Url Of Application....................................failed
+When user Enter The Email Id or Phone Number Into Such Field................skipped
+And user Enter The Password Into Password Field.............................skipped
+And user Click The Login button.............................................skipped
+And user Click The Create Account button....................................skipped
+And user Enter Their First Name In Such Field...............................skipped
+And user Enter Their Surname Name In Such Field.............................skipped
+And user Enter Their Mobile Number or Email Id In Such Field................skipped
+And user Enter Their New Password In Such Field.............................skipped
+And user Select Their DOB  In Such Field....................................skipped
+And user Click Their Gender In Such Field...................................skipped
+Then user Click The SignUp button In Such Field.............................skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\Admin\eclipse-workspace1\FaceBook\src\main\java\property\FaceBook.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at property.ConfigurationReader.<init>(ConfigurationReader.java:12)
+	at property.ConfigurationHelper.getInstance(ConfigurationHelper.java:7)
+	at com.stepdefinition.stepdefinition.user_Launch_The_Url_Of_Application(stepdefinition.java:33)
+	at ✽.user Launch The Url Of Application(src/test/java/com/feature/facebook.feature:5)
+]]></failure>
+    </testcase>
+</testsuite>
